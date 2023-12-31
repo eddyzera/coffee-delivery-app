@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# Coffee Delivery
+Desafio ignite - Criação de uma aplicação que faz toda gestão de venda e entrega de café.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Capa](https://user-images.githubusercontent.com/60861927/213000283-9f76b5e5-443a-4d5c-970c-7ce57d9dc0bd.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologias
 
-## Expanding the ESLint configuration
+- ReactJS
+- Typescript
+- Jest
+- Testing Library
+- StitchesJS
+- Radix
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Command lines 
 
-- Configure the top-level `parserOptions` property like this:
+### `npm start`
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+inicia o projeto no ambiente de Dev.\
+Abra [http://localhost:5173]( http://localhost:5173) visualiza no seu navegador.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# Layout 
+
+## Home
+
+![Coffee Delivery - Home](https://user-images.githubusercontent.com/60861927/213000300-76f1da8e-03a8-4512-82fb-78af6b065f5c.png)
+
+## Checkout
+
+![Coffee Delivery - Checkout](https://user-images.githubusercontent.com/60861927/213000448-264ef09f-ffd3-44a8-88be-476c68a1ae5d.png)
+
+## Success
+
+![Coffee Delivery - Success](https://user-images.githubusercontent.com/60861927/213000563-b1fc2854-37ab-4292-afbc-e86f588fcca7.png)
