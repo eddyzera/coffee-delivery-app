@@ -5,7 +5,7 @@ export const App: React.FunctionComponent = () => {
   return (
     <div>
       <h1>app</h1>
-      <Button.Wrapper className='bg-slate-600'>
+      <Button.Wrapper className='bg-slate-600' onClick={() => console.log(`hello`)}>
         <Button.Label text='hello' className='text-white' />
       </Button.Wrapper>
     </div>

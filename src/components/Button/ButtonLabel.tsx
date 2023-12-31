@@ -10,7 +10,7 @@ export const ButtonLabel: React.FunctionComponent<IButtonLabelProps> = ({
   ...props
 }) => {
   return (
-    <label {...props} className={`${className} font-roboto text-sm font-normal`}>
+    <label {...props} className={`${className} font-roboto text-sm font-normal cursor-pointer`}>
       {text}
     </label>
   )
